@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
 
-for letter in 'CrownCrafter':
-    print(letter)
+for letter in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+    if letter%2 == 0:
+        print(letter)
