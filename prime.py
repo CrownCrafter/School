@@ -1,4 +1,4 @@
-x = int(input("Enter num"))
+x = int(input("Enter num "))
 i = 2
 while True:
     div = x%i
