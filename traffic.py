@@ -19,5 +19,5 @@ if(l == 0):
     print("STOP")
 elif(l == 1):
     print("WAIT")
-else:
+elif(l == 2):
     print("GO!")
