@@ -1,4 +1,4 @@
-while(1 == 1):
+while(True):
     a = int(input("Type the first number "))
     b = int(input("Type the second number "))
     print("\n")
