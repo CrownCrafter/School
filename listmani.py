@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-lis = []
+lis = ["blue", "1", "bangalore", "Hello world"]
 while(True):
     print("1)Add Element at Position")
     print("2)Append Element")
@@ -8,7 +8,9 @@ while(True):
     print("5)Delete Element by Value")
     print("6)Sort in Ascending")
     print("7)Sort in Descending")
-    print("8)Exit")
+    print("8)Add a list")
+    print("9)Exit")
+    print(f"The list has the following elements: {lis}")
     oper = int(input("Enter Operation "))
     if(oper == 1):
         lis.insert(int(input("Enter Position ")), input("Enter Element "))
@@ -42,6 +44,11 @@ while(True):
     if(oper == 7):
         lis.sort(reverse = True)
         print(lis)
-
+        
     if(oper == 8):
+        newList = input("Enter the list to be appended(Do not use quotes, and use (,) for separating the elements): ")
+        lis.extend(list(newList.split(",")))
+        print("The list has been appended\n")
+
+    if(oper == 9):
         break
