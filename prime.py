@@ -10,4 +10,3 @@ while True:
         print("Composite")
         break
     i += 1
-print("Execution complete")
